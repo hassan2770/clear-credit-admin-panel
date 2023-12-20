@@ -1,0 +1,142 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.news {
+  min-height: 450px;
+  width: 60%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin-top: 7%;
+  border-radius: 20px;
+}
+.heading {
+  font-weight: 600;
+  margin-bottom: 4%;
+  padding: 15px 15px 0px 15px;
+}
+.heading1 {
+    font-weight: 600;
+    margin-bottom: 4%;
+  }
+.box {
+  border-bottom: #8b8b8b 1px dotted;
+  height: 70px;
+  margin-bottom: 2%;
+}
+.boxes {
+  display: flex;
+  margin-bottom: 5%;
+  justify-content: flex-start;
+  padding: 0px 15px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 2%;
+}
+.text > span {
+  font-size: 14px;
+  font-weight: 550;
+}
+.text > p {
+  color: #8b8b8b;
+  font-size: 14px;
+}
+.time {
+  color: #8b8b8b;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.viewall {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 20px;
+}
+.viewall > span {
+  margin-right: 1%;
+  cursor: pointer;
+}
+.ordertimeline {
+  height: 500px;
+  width: 30%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 25px;
+  margin-top: 7%;
+  border-radius: 20px;
+}
+.otdivs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.otdiv1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.greencircle{
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    background-color: aqua;
+}
+.greencircle2{
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    background-color: green;
+}
+.bluecircle{
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    background-color: blue;
+}
+.orangecircle{
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    background-color: orange;
+}
+.redcircle{
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    background-color: red;
+}
+.otdiv1 span{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 4%;
+}
+.otdiv2{
+    font-size: 13px;
+    color: #8b8b8b;
+    border-left: 2px solid #d8d8d8;
+    height: 50px;
+    margin-top: 3%;
+    display: flex;
+    margin-left: 2%;
+}
+.otdiv3{
+    font-size: 13px;
+    color: #8b8b8b;
+    height: 50px;
+    margin-top: 3%;
+    display: flex;
+    margin-left: 2%;
+}
+.otdiv2 span{
+    margin-left: 7%;
+}
+.otdiv3 span{
+    margin-left: 7%;
+}

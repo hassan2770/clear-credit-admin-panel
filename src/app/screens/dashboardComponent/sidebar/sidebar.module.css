@@ -1,0 +1,28 @@
+.wrapper{
+    position: fixed;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 20px;
+    width: 15%;
+    height: 100vh;
+    overflow-y: auto;
+}
+.wrapper::-webkit-scrollbar {
+    width: 10%;
+  }
+.list{
+    list-style: none;
+}
+.catdiv{
+    margin-bottom: 20px;
+}
+.category{
+    color: #8B8B8B;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5rem;
+}
+.turtle{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10%;
+}

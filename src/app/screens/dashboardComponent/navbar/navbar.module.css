@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 83%;
+  height: 10%;
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

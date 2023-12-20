@@ -1,0 +1,227 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.traffic {
+  height: 390px;
+  width: 30%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 25px;
+  margin-top: 7%;
+  border-radius: 20px;
+}
+.heading {
+  font-weight: 600;
+  margin-bottom: 8%;
+}
+.heading1 {
+  font-weight: 600;
+  margin-bottom: 4%;
+  padding: 15px 15px 0px 15px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.boxes {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.socials {
+  border: 1px solid #d6d5d5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  width: 48%;
+  border-radius: 10px;
+}
+.socials span {
+  font-size: 14px;
+  color: #8b8b8b;
+}
+.tasks {
+  height: 340px;
+  width: 60%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin-top: 7%;
+  border-radius: 20px;
+}
+.tasks .checklist:last-child {
+  border: none;
+}
+.checklist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px #8b8b8b dotted;
+  height: 55px;
+  padding: 25px;
+  color: #8b8b8b;
+  
+}
+.text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.text span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.text input {
+  appearance: none;
+}
+.text input::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #8b8b8b;
+  background-color: #fff;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.text input:hover::before {
+  box-shadow: 0 0 5px rgba(10, 7, 165, 0.3), 0 0 10px rgba(12, 15, 192, 0.2);
+}
+.text input:checked::before {
+  background-color: #088534;
+  content: "\2713";
+  text-align: center;
+  line-height: 16px;
+  color: white;
+}
+.dots{
+    cursor: pointer;
+}
+.underline{
+    text-decoration: line-through;
+    color: #ccc4c4;
+}
+.taskoptions{
+    position: relative;
+    top: 4rem;
+    right: -6rem;
+    font-size: 15px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.9rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-height: 30%;
+    width: 110%;
+    justify-content: center;
+    transition: all ease-in-out 300ms;
+    z-index: 1;
+    color: black;
+    cursor: pointer;
+}
+.taskoptions span{
+    margin-left: 10%;
+}
+.taskoptions div:last-child{
+    color: red;
+}
+.taskoptions div:hover{
+    background-color: #f4f4f4;
+}
+.taskoptions2{
+    position: relative;
+    top: 4rem;
+    right: -5rem;
+    font-size: 15px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.9rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-height: 30%;
+    width:110%;
+    justify-content: center;
+    transition: all ease-in-out 300ms;
+    z-index: 1;
+    color: black;
+    cursor: pointer;
+}
+.taskoptions2 span{
+    margin-left: 10%;
+}
+.taskoptions2 div:last-child{
+    color: red;
+}
+.taskoptions2 div:hover{
+    background-color: #f4f4f4;
+}
+.taskoptions3{
+    position: relative;
+    top: 4rem;
+    right: -7rem;
+    font-size: 15px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.9rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-height: 30%;
+    width: 110%;
+    justify-content: center;
+    transition: all ease-in-out 300ms;
+    z-index: 1;
+    color: black;
+    cursor: pointer;
+}
+.taskoptions3 span{
+    margin-left: 10%;
+}
+.taskoptions3 div:last-child{
+    color: red;
+}
+.taskoptions3 div:hover{
+    background-color: #f4f4f4;
+}
+.taskoptions4{
+    position: relative;
+    top: 4rem;
+    right: -4.5rem;
+    font-size: 15px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.9rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-height: 30%;
+    width:110%;
+    justify-content: center;
+    transition: all ease-in-out 300ms;
+    z-index: 1;
+    color: black;
+    cursor: pointer;
+}
+.taskoptions4 span{
+    margin-left: 10%;
+}
+.taskoptions4 div:last-child{
+    color: red;
+}
+.taskoptions4 div:hover{
+    background-color: #f4f4f4;
+}
